@@ -1,6 +1,8 @@
 <?php
 require_once('../../ressources/includes/connexion-bdd.php');
 
+session_start();
+
 if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
     // Redirection vers la page de connexion
     $redirect_url = "http://{$_SERVER['HTTP_HOST']}/code/administration/connexion/connexion.php";

@@ -1,6 +1,8 @@
 <?php
 require_once('../../ressources/includes/connexion-bdd.php');
 
+session_start();
+
 // Vérif si l'utilisateur est connecté
 if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
     // Redirection vers la page de connexion

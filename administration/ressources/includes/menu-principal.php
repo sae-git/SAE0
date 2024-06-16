@@ -2,32 +2,33 @@
 // Editez le tableau de dictionnaires ci-dessous
 $liste_entrees_menu = [
     [
-        "lien" => "http://{$_SERVER['HTTP_HOST']}/code/administration/articles",
+        "lien" => "./administration/articles",
         "nom" => "Articles",
         "clef" => "articles"
     ],
     [
-        "lien" => "http://{$_SERVER['HTTP_HOST']}/code/administration/auteurs",
+        "lien" => "./administration/auteurs",
         "nom" => "Auteurs",
         "clef" => "auteurs"
     ],
     [
-        "lien" => "http://{$_SERVER['HTTP_HOST']}/code/administration/messages",
+        "lien" => "./administration/messages",
         "nom" => "Messages",
         "clef" => "messages"
     ],
     [
-        "lien" => "http://{$_SERVER['HTTP_HOST']}/code/administration/sae",
+        "lien" => "./administration/sae",
         "nom" => "SAE",
         "clef" => "sae"
     ],
     [
-        "lien" => "http://{$_SERVER['HTTP_HOST']}/code/administration/connexion/deconnexion.php",
-        "nom" => "Déconnexion",
-        "clef" => "deconnexion"
+        "lien" => "/code/administration/connexion/deconnexion.php", 
+        "nom" => "Déconnexion", 
+        "clef" => "deconnexion" 
     ]
 ];
 ?>
+
 
 
 <nav class="bg-gradient-to-r from-gray-800 to-slate-900">

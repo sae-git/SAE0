@@ -25,11 +25,10 @@ $auteurs = mysqli_fetch_all($resultat_auteurs, MYSQLI_ASSOC);
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/fonts.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/global.css">
     <link rel="stylesheet" href="ressources/css/ne-pas-modifier/header.css">
-    <link rel="stylesheet" href="ressources/css/ne-pas-modifier/accueil.css">
+    
     <link rel="icon" href="ressources/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="ressources/css/global.css">
     <link rel="stylesheet" href="ressources/css/equipe-de-rédaction.css">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +37,7 @@ $auteurs = mysqli_fetch_all($resultat_auteurs, MYSQLI_ASSOC);
 
     <main class="conteneur-principal conteneur-1280">
         <div class="container">
-            <h1 class="titre text-center">Équipe de Rédaction</h1>
+            <h1 class="texte">Équipe de Rédaction</h1>
             <div class="team-container">
                 <?php foreach ($auteurs as $auteur) : ?>
                     <div class="team-member">

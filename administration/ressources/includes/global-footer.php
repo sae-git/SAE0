@@ -3,7 +3,7 @@
     <p>Projet réalisé par :</p> 
     <ul class="inline-flex">
         <li class="px-1">Arda NIGIZ</li>
-        <li class="px-1">Zakaria LUMUSCIO</li>
+        <li class="px-1">Zakaria LOMUSCIO</li>
         <li class="px-1">Matteo LEMARQUES</li>
         <li class="px-1">Hasson OUBAOUUS</li>
     </ul>
